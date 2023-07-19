@@ -1,0 +1,18 @@
+1.             Hiện thị danh sách các lớp có học viên theo học và số lượng học viên của mỗi lớp ( yêu cầu viết code ra giấy )
+
+2.             Tính điểm lớn nhất của mỗi các lớp ( yêu cầu viết code ra giấy )
+
+3.             Tình điểm trung bình  của từng lớp ( yêu cầu viết code ra giấy )
+
+4.             Lấy ra toàn bộ tên và ngày sinh các instructor và student ở CodeGym. ( yêu cầu viết code ra giấy )
+
+5.             Lấy ra top 3 học viên có điểm cao nhất của trung tâm. ( yêu cầu viết code ra giấy )
+
+6.             Lấy ra các học viên có điểm số là cao nhất của trung tâm. ( yêu cầu viết code ra giấy )
+
+ 
+
+Tài liệu tham khảo: Slide, James
+
+Tham khảo thêm:
+https://levunguyen.com/database/2020/05/09/cac-ham-tong-hop-trong-database/
