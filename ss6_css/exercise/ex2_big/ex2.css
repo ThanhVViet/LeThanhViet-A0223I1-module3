@@ -1,0 +1,18 @@
+div {
+    text-align: justify;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+
+.p1 {
+    background: none;
+    color: #32a4e7;
+}
+
+.p2 {
+    text-indent: 2em;
+}
+
+.p3 {
+    color: crimson;
+    background: none;
+}
