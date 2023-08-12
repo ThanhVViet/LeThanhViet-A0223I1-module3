@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    top: 10px;
+    margin-bottom: 10px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: snow;
+}
+
+.nav {
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #555555;
+    font-size: 20px;
+}
+
+.nav-list {
+    padding-left: 0;
+    margin: auto 16px;
+    display: flex;
+}
+
+.nav-item {
+    color: #fff;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.logoBox {
+    width: 5%;
+    margin-right: 10px;
+}
+
+.logoBox img {
+    width: 20px;
+}
+
+.column-layout {
+    /*display: flex;*/
+    /*font-size: 20px;*/
+    /*justify-content: space-evenly;*/
+    /*flex-direction: column;*/
+    /*align-content: center;*/
+    /*height: 710px;*/
+
+}
+
+.column-item {
+    padding: 0 16px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebar-one {
+    padding-top: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+}
+
+.sidebar-two {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    background-color: #d4d4d4;
+}
+
+.main-column {
+    flex: 3;
+    background-color: white;
+}
+
+.box {
+    width: 148px;
+    height: 90px;
+    color: black;
+    text-align: center;
+    line-height: 90px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #cccccc;
+    border: solid;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 26px;
+    color: white;
+}
+
+.nav-item:hover {
+    color: bisque;
+}
+
+@media screen and (min-width: 768px) {
+    .column-layout {
+        display: flex;
+        font-size: 20px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-content: center;
+        height: 710px;
+        background: red;
+    }
+}

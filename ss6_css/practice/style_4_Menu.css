@@ -1,0 +1,40 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+#menu, #menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    list-style: none; /* bỏ đi các phần tử ở trước mỗi danh sách */
+    position: relative;
+    width:100px;
+    height: 30px;
+    padding:0 20px; /* Cố định lề trái (left) và phải (right) dành cho các nội dung bên trong phần*/
+/*tử danh sách (li) với khung viền của nó.*/
+    background-color: rosybrown;
+    line-height: 30px;
+    cursor:pointer; /* chuyển con trỏ thành bàn tay */
+    border: saddlebrown solid 1px;
+}
+
+#menu li a{
+    text-decoration:none; /* bỏ gạch chân cho liên kết */
+    color: white;
+}
+
+#menu li:hover{
+    background-color: #32a4e7; /* đổi màu khi đưa chuột qua các phần tử */
+}
+
+#menu ul ul{ /* dành cho cac danh sách con */
+    position: absolute; /* cố định vị trí xuất hiện của danh sách con */
+    top:0;
+    left:140px;
+    visibility:hidden;
+}
+
+#menu ul li:hover ul{
+    visibility:visible; /* cho phép danh sách con hiển thị */
+}
