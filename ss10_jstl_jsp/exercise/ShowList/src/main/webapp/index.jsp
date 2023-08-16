@@ -5,6 +5,12 @@
 <head>
     <title>List Customer</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
 <h1>Customer Management</h1>
