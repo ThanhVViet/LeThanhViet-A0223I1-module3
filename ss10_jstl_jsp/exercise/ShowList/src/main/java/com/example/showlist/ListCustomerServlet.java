@@ -21,10 +21,10 @@ public class ListCustomerServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Customer> customers = new ArrayList<>();
         customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/image/badboynetwork3.webp"));
-        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/Users/thanhviet/Documents/codegym/module3/ss10_jstl_jsp/exercise/ShowList/image/badboynetwork3.webp"));
-        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/Users/thanhviet/Documents/codegym/module3/ss10_jstl_jsp/exercise/ShowList/image/badboynetwork3.webp"));
-        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/Users/thanhviet/Documents/codegym/module3/ss10_jstl_jsp/exercise/ShowList/image/badboynetwork3.webp"));
-        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/Users/thanhviet/Documents/codegym/module3/ss10_jstl_jsp/exercise/ShowList/image/badboynetwork3.webp"));
+        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/image/badboynetwork3.webp"));
+        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/image/badboynetwork3.webp"));
+        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/image/badboynetwork3.webp"));
+        customers.add(new Customer("Viet", "02/03/2003", "Đỗ Thúc Tịnh", "/image/badboynetwork3.webp"));
         req.setAttribute("customers", customers);
         req.getRequestDispatcher("/index.jsp").forward(req,resp);
     }
